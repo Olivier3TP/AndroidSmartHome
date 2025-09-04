@@ -1,6 +1,9 @@
 package com.example.smarthome;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Switch;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +23,17 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        Switch switchLight = findViewById(R.id.lightSwitch);
+        Switch switchRollerBlind = findViewById(R.id.rollerBlindSwith);
+        Switch switchDoor = findViewById(R.id.doorSwitch);
+        TextView statusLight = findViewById(R.id.lightStatus);
+        TextView statusRollerBlind = findViewById(R.id.rollerBlindStatus);
+        TextView statusDoor = findViewById(R.id.doorStatus);
+
+        if(switchLight.isChecked()){
+            statusLight.setText("ON");
+        }else{
+            statusLight.setText("OFF");
+        }
     }
 }
