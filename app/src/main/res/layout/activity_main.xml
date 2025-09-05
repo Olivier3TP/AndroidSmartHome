@@ -25,15 +25,15 @@
 
         <TextView
             android:id="@+id/lightText"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:textSize="15sp"
             android:text="Oświetlenie" />
 
-        <Switch
+        <ToggleButton
             android:id="@+id/lightSwitch"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
@@ -45,15 +45,15 @@
 
         <TextView
             android:id="@+id/rollerBlindText"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:textSize="15sp"
             android:text="Rolety" />
 
-        <Switch
+        <ToggleButton
             android:id="@+id/rollerBlindSwith"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
@@ -65,15 +65,15 @@
 
         <TextView
             android:id="@+id/doorTexr"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:textSize="15sp"
             android:text="Brama" />
 
-        <Switch
+        <ToggleButton
             android:id="@+id/doorSwitch"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
@@ -112,7 +112,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Off" />
+            android:text="OFF" />
     </LinearLayout>
 
     <LinearLayout
@@ -133,7 +133,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Off" />
+            android:text="OFF" />
     </LinearLayout>
 
     <LinearLayout
@@ -154,6 +154,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Off" />
+            android:text="OFF" />
     </LinearLayout>
+
 </LinearLayout>
